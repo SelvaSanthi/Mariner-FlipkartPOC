@@ -13,12 +13,8 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,17 +25,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.github.mkolisnyk.cucumber.reporting.CucumberCustomReport;
-import com.github.mkolisnyk.cucumber.reporting.CucumberDetailedResults;
-import com.github.mkolisnyk.cucumber.reporting.CucumberResultsOverview;
-
-import flipkartSupport.CustomExtentReport;
 import flipkartSupport.PropertyReader;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-//import junit.framework.Assert;
 
 public class FlipkartProduct {
 

@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Set;
 
+import org.junit.*;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -74,7 +75,7 @@ public class FlipkartProduct {
 
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			Assert.fail("Could not navigate to URL");
 		}
 

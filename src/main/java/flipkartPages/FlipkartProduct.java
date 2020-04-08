@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Set;
 
-import org.junit.*;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -129,7 +128,7 @@ public class FlipkartProduct {
 			btnlogin.click();	
 			systemWait();
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			Assert.fail("Could not login to the flipkart application");
 		}
 	}
@@ -167,7 +166,7 @@ public class FlipkartProduct {
 			PageFactory.initElements(driver, this);
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 		return returnValue;
 	}
@@ -182,7 +181,7 @@ public class FlipkartProduct {
 			btnlogin.click();	
 			systemWait();
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			Assert.fail("Could not login to the flipkart application");
 		}
 	}
@@ -194,7 +193,7 @@ public class FlipkartProduct {
 			boolean check=userAccountName.isDisplayed();
 			//			Assert.assertEquals(true, check);
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			//driver.quit();
 		}
 	}
@@ -215,7 +214,7 @@ public class FlipkartProduct {
 			System.out.println(result);
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			Assert.fail("No search result found");
 
 		}
